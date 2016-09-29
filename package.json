@@ -6,7 +6,7 @@
   },
   "graphql": {
     "endpoint": {
-      "url": "http://acaabb.subkit.io/graphql/todos-examples",
+      "url": "https://acaabb.subkit.io/graphql/todos-examples",
       "headers": {
         "user-agent": "subkit-examples:react-relay-todo",
         "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsImF1ZGllbmNlIjoic3Via2l0In0.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoiYWRtaW4ifQ.V1fsPOH9awV8zgBsqiXcpbNwp2uwU-W0p3npSo5AC1w"

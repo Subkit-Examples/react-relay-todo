@@ -2,6 +2,7 @@ const GraphQLUtils = require('graphql/utilities');
 const requestSync = require('sync-request');
 const manifest = require('../package.json');
 const babelRelayPlugin = require('babel-relay-plugin');
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
 
 const GRAPHQL_ENDPOINT = process.env.GRAPHQL_ENDPOINT || manifest.graphql.endpoint.url;
 const GRAPHQL_ENDPOINT_TOKEN = process.env.GRAPHQL_ENDPOINT_TOKEN || manifest.graphql.endpoint.headers.Authorization;
