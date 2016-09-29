@@ -1,17 +1,27 @@
 # react-relay-todo example
 
+## Setup
+
+```bash
+npm install
+```
+
 ## Dev
 
 ```bash
 npm start
 ```
 
-## Build
-```
+__open [http://localhost:3000](http://localhost:3000)__
+
+## Production build
+
+```bash
 npm run build
 ```
 
-## Use Docker Deployment
+## Docker deployment
+
 ```bash
 docker build -t subkit-react-relay-todo .
 docker run  -d \
