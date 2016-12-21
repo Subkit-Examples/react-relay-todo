@@ -1,0 +1,7 @@
+# A todo item
+type Todo implements Node {
+  id: ID!
+  rev: String
+  text: String
+  complete: Boolean
+}
